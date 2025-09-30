@@ -1,7 +1,7 @@
 module.exports.config = {
     name: "antiout",
     version: "1.0.0",
-    credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+    credits: "MIRAI project",
     hasPermssion: 1,
     description: "Turn off antiout",
     usages: "antiout on/off",
