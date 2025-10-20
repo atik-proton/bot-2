@@ -1,18 +1,12 @@
-module.exports.config = {
-	name: "bio",
-	version: "1.0.0",
-	hasPermssion: 2,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
-	description: "Change bot's bio",
-	commandCategory: "admin",
-	usages: "bio [text]",
-  cooldowns: 5
-  
-}
-  
-  module.exports.run = async ({ api, event, global, args, permssion, utils, client, Users }) => {
-    api.changeBio(args.join(" "), (e) => {
-      if(e) api.sendMessage("an error occurred" + e, event.threadID); return api.sendMessage("Has changed the biography of the bot into: \n"+args.join(" "), event.threadID, event.messgaeID)
-    }
-    )
-  }
+const profile = {
+  name: "Eren Yeager",
+  age: "16+",
+  location: {
+    country: "Bangladesh",
+    cities: ["Rangpur", "Lalmonirhat"]
+  },
+  interests: ["Anime Otaku"],
+  about: "I don't know what should I write about myself. So sorry I know it's a waste of your valuable time."
+};
+
+console.log(profile);
